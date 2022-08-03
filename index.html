@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/49743aafdd.js" crossorigin="anonymous"></script>
+    
+    
+
+</head>
+<body>
+  <div class="container"> 
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          
+                      
+          <a class="navbar-brand">German Pappalardo < /Dev ></a>
+          <form class="d-flex">
+            <div class="btn btn-light">
+              <a
+                href="https://www.facebook.com/german.pappalardo.7/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-facebook-square fa-2xl"></i
+              ></a>
+            </div>
+            <div class="btn btn-light">
+              <a
+                href="https://www.linkedin.com/in/german-pappalardo-1408a050/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-linkedin fa-2xl"></i
+              ></a>
+            </div>
+            <div class="btn btn-light">
+              <a
+                href="https://github.com/gergp62"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-github-square fa-2xl"></i
+              ></a>
+            </div>
+            
+          
+          </form>
+        </div>
+      </nav>
+    <header>
+        <img class="logo" src="Logo.jpg">
+        <h1>Encriptador/Desencriptador de texto</h1>
+
+    </header>
+    <main>
+        <section class="encriptar">
+ 
+            <textarea name="textarea" rows="6" cols="40" id="text-encriptar">Texto a Encriptar o Desencriptar</textarea>
+            <h6 >Solo texto en minúsculas y sin acentos</h6>
+            <div class="botones">
+                <button class="btn btn-danger" type="submit" id="btnEncrip" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn btn-info" type="submit" id="btnDecrip" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+
+                        
+        </section>   
+        <section class="desencriptar"> 
+
+          <img class="muneco" src="Muñeco.png">
+          <h3 id="sinMensaje">Ningún mensaje fue encontrado</h3>
+          <textarea name="textarea" rows="8" cols="18" id="text-copiar">Aqui sucede la magia!</textarea>
+          <div class="copiarbtn">  
+              <button class="btn btn-primary" id="copiar" type="submit" onclick="copiar()">Copiar</button>
+
+          </div>    
+
+        </section>    
+    </main>
+
+    
+
+
+    <footer> 
+      <p class="placeholder-glow">
+        <span class="placeholder col-12 bg-info placeholder-xs"></span>
+      </p>
+      <h6><i class="fa fa-copyright" aria-hidden="true"></i> Copyright Germán Pappalardo < /Dev > </h6> 
+    
+    </footer>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="challenge.js"></script>
+</body>
+</html>

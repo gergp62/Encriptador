@@ -1,0 +1,121 @@
+body {
+    background-color: #E5E5E5;
+   
+    
+       
+}
+.container{
+    
+    width: 960px;
+    height: 650px;
+
+}
+
+main{
+    display: flex;
+    background-image: url(candado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+.logo{
+    background-color: #ffffff;
+    float: inherit;
+    margin-top: 2px;
+
+    
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color:lightblue;
+    margin: 20px  auto 40px;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: #E5E5E5;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: auto;
+  }
+h6{
+    color:white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.encriptar {
+    
+    float: left;
+    width: 70%;
+    border-radius: 24px;
+    height: auto;
+    
+}
+#text-encriptar{
+    background: #E5E5E5;
+    border: none;
+
+}
+
+#text-desencriptar{
+    border: none;
+    
+}
+
+
+
+.desencriptar {
+    background-color: #ffffff;
+    float: right;
+    width: 30%;
+    
+    border-radius: 24px;
+    height: auto;
+    
+}
+
+.muneco{
+    margin-top: 20%;
+    height: auto;
+    width:90%;
+}
+h3{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+footer{
+    text-align: center;
+    padding-top: 20px;
+    margin: 15px 0px auto;
+    
+}
+
+h6{
+    font-weight: bolder;
+}
+
+.botones{
+    text-align: center;
+}
+.copiarbtn{
+    text-align: center;
+    
+}
+#copiar{
+    display: none;
+    text-align: center;
+}
