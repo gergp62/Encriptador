@@ -1,8 +1,6 @@
 body {
     background-color: #E5E5E5;
-   
-    
-       
+     
 }
 .container{
     
@@ -26,8 +24,7 @@ main{
     background-color: #ffffff;
     float: inherit;
     margin-top: 2px;
-
-    
+       
 }
 
 h1{
@@ -73,8 +70,6 @@ h6{
     border: none;
     
 }
-
-
 
 .desencriptar {
     background-color: #ffffff;
